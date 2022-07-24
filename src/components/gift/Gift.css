@@ -1,0 +1,43 @@
+.gift {
+    align-items: center;
+    padding: 4rem;
+    height: 100vh;
+    gap: 1rem;
+    
+}
+
+
+.container__card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    width: 70%;
+    height: 60vh;
+    margin-left: 12rem;
+    padding: 2rem;
+    gap: 3rem;
+}
+
+.caption {
+    margin-bottom: 15rem;
+    font-family: Georgia;
+    font-size: 1.3rem;
+    gap: 3rem;
+    
+}
+
+.description {
+    font-size: 0.9rem;
+    width: 70%;
+    gap: 1rem;
+}
+
+.button {
+    background: white;
+    color: black;
+    border-radius: 12rem;
+    font-size: 1rem;
+}
+
+
+
