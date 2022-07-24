@@ -1,0 +1,56 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 12vh;
+    background: white; 
+    overflow: hidden;
+    top: 0;
+ 
+}
+
+
+
+.nav-brand {
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(28, 125, 125);
+    font-size: 1.4rem;
+}
+
+
+
+.nav-link {
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(137, 132, 132);
+    font-size: 1.3rem;
+    display: block;
+}
+
+.navbar-link:hover {
+    background: #ddd;
+    color: black;
+  }
+
+
+.main-nav {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-left: 38rem;
+    text-decoration: none;
+    display: flex;
+    font-size: 1.1rem;
+
+}
+
+.icon {
+    cursor: auto;
+    display: flex;
+    gap: 2rem;
+    
+    
+}
