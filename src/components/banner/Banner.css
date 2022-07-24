@@ -1,0 +1,39 @@
+.container.banner__container {
+    width: 100%;
+    color: black;
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    background: var(--color-primary);
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .container.reference__container {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container.reference__container {
+        width: var(--container-width-sm);
+    }
+
+    .review {
+        width: var(--container-width-sm);
+    }
+}
